@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432A46AF472237604F7F55AE /* libPods-FitnessApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA5CEF1DF1E70ACE09BA3 /* libPods-FitnessApp.a */; };
+		BB4E1F46244B6C6C00C31F7F /* challengesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4E1F45244B6C6C00C31F7F /* challengesTableViewController.swift */; };
+		BB4E1F48244B6C9100C31F7F /* addScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4E1F47244B6C9100C31F7F /* addScreenViewController.swift */; };
+		BE35AC6E2437E1F700754558 /* meditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35AC6D2437E1F700754558 /* meditationViewController.swift */; };
+		BE35AC702438101900754558 /* moreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35AC6F2438101900754558 /* moreInfoViewController.swift */; };
+		BE35AC7224381F1700754558 /* nutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35AC7124381F1700754558 /* nutritionViewController.swift */; };
+		BE4122AC243544DC0062A534 /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4122AB243544DC0062A534 /* timerViewController.swift */; };
+		BE8D67AF243A951500602C1B /* fitnessTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D67AE243A951500602C1B /* fitnessTableViewController.swift */; };
+		BE8D67B1243AA56700602C1B /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D67B0243AA56700602C1B /* workoutViewController.swift */; };
+		BE8D67B3243D35DF00602C1B /* recipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D67B2243D35DF00602C1B /* recipesTableViewController.swift */; };
+		BE8D67B5243D387600602C1B /* focusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D67B4243D387600602C1B /* focusViewController.swift */; };
+		BE9C55182445841300A0C679 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9C55172445841300A0C679 /* CreateAccountViewController.swift */; };
+		BEAA5882244CE4D1006869B4 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA5881244CE4D1006869B4 /* HomeTableViewController.swift */; };
+		BEAA5886244CFBB0006869B4 /* LeaderBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA5885244CFBB0006869B4 /* LeaderBoardTableViewController.swift */; };
+		BEBEA5D1243018D100119720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEA5D0243018D100119720 /* AppDelegate.swift */; };
+		BEBEA5D3243018D100119720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEA5D2243018D100119720 /* SceneDelegate.swift */; };
+		BEBEA5D5243018D100119720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEA5D4243018D100119720 /* ViewController.swift */; };
+		BEBEA5DB243018D100119720 /* FitnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEBEA5D9243018D100119720 /* FitnessApp.xcdatamodeld */; };
+		BEBEA5DD243018D100119720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBEA5DC243018D100119720 /* Assets.xcassets */; };
+		BEBEA5E0243018D100119720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBEA5DE243018D100119720 /* LaunchScreen.storyboard */; };
+		BEE7816D24422BEA00234A68 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7816C24422BEA00234A68 /* ChallengesViewController.swift */; };
+		BEE7816F24422CB700234A68 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7816E24422CB700234A68 /* StatsViewController.swift */; };
+		BEE781802442B2DD00234A68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7817F2442B2DD00234A68 /* LoginViewController.swift */; };
+		D813C730244B83AB005273D7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC1571E2447F53000949862 /* WebKit.framework */; };
+		D856CC65244FC7FF00CBCCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D856CC63244FC7FE00CBCCE6 /* Main.storyboard */; };
+		D8A9C73F244E4E8B00D57E5C /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9C73E244E4E8B00D57E5C /* LaunchScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB4E1F45244B6C6C00C31F7F /* challengesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengesTableViewController.swift; sourceTree = "<group>"; };
+		BB4E1F47244B6C9100C31F7F /* addScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addScreenViewController.swift; sourceTree = "<group>"; };
+		BE35AC6D2437E1F700754558 /* meditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationViewController.swift; sourceTree = "<group>"; };
+		BE35AC6F2438101900754558 /* moreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreInfoViewController.swift; sourceTree = "<group>"; };
+		BE35AC7124381F1700754558 /* nutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionViewController.swift; sourceTree = "<group>"; };
+		BE4122AB243544DC0062A534 /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
+		BE8D67AE243A951500602C1B /* fitnessTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitnessTableViewController.swift; sourceTree = "<group>"; };
+		BE8D67B0243AA56700602C1B /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
+		BE8D67B2243D35DF00602C1B /* recipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesTableViewController.swift; sourceTree = "<group>"; };
+		BE8D67B4243D387600602C1B /* focusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusViewController.swift; sourceTree = "<group>"; };
+		BE9C55172445841300A0C679 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BEAA5881244CE4D1006869B4 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		BEAA5885244CFBB0006869B4 /* LeaderBoardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewController.swift; sourceTree = "<group>"; };
+		BEBEA5CD243018D100119720 /* Trifecta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trifecta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBEA5D0243018D100119720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEBEA5D2243018D100119720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEBEA5D4243018D100119720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEBEA5DA243018D100119720 /* FitnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessApp.xcdatamodel; sourceTree = "<group>"; };
+		BEBEA5DC243018D100119720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEBEA5DF243018D100119720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEBEA5E1243018D100119720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC1571E2447F53000949862 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BEE7816C24422BEA00234A68 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		BEE7816E24422CB700234A68 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		BEE7817F2442B2DD00234A68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D32C9519C9B04BC58BD9FF67 /* Pods-FitnessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessApp/Pods-FitnessApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B48FB0C2294E33372ABD5C /* Pods-FitnessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessApp/Pods-FitnessApp.release.xcconfig"; sourceTree = "<group>"; };
+		D813C72A244B839E005273D7 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D813C732244B83E3005273D7 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D813C741244B88F1005273D7 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D856CC64244FC7FE00CBCCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8A9C73E244E4E8B00D57E5C /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		F2AAA5CEF1DF1E70ACE09BA3 /* libPods-FitnessApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitnessApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEBEA5CA243018D100119720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D813C730244B83AB005273D7 /* WebKit.framework in Frameworks */,
+				432A46AF472237604F7F55AE /* libPods-FitnessApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78FE1A806DC9E526219F8006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D813C741244B88F1005273D7 /* Charts.framework */,
+				D813C732244B83E3005273D7 /* Charts.framework */,
+				D813C72A244B839E005273D7 /* Charts.framework */,
+				BEC1571E2447F53000949862 /* WebKit.framework */,
+				F2AAA5CEF1DF1E70ACE09BA3 /* libPods-FitnessApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA8F362EAC5DFEA46F313CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32C9519C9B04BC58BD9FF67 /* Pods-FitnessApp.debug.xcconfig */,
+				D5B48FB0C2294E33372ABD5C /* Pods-FitnessApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEBEA5C4243018D100119720 = {
+			isa = PBXGroup;
+			children = (
+				BEBEA5CF243018D100119720 /* FitnessApp */,
+				BEBEA5CE243018D100119720 /* Products */,
+				78FE1A806DC9E526219F8006 /* Frameworks */,
+				9DA8F362EAC5DFEA46F313CD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BEBEA5CE243018D100119720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEBEA5CD243018D100119720 /* Trifecta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBEA5CF243018D100119720 /* FitnessApp */ = {
+			isa = PBXGroup;
+			children = (
+				BEE7817E2442B10E00234A68 /* HomePage */,
+				BEBEA5D0243018D100119720 /* AppDelegate.swift */,
+				BEBEA5D2243018D100119720 /* SceneDelegate.swift */,
+				BEBEA5D4243018D100119720 /* ViewController.swift */,
+				D856CC63244FC7FE00CBCCE6 /* Main.storyboard */,
+				BEE7816E24422CB700234A68 /* StatsViewController.swift */,
+				BEE7816C24422BEA00234A68 /* ChallengesViewController.swift */,
+				BB4E1F45244B6C6C00C31F7F /* challengesTableViewController.swift */,
+				BB4E1F47244B6C9100C31F7F /* addScreenViewController.swift */,
+				BE8D67B4243D387600602C1B /* focusViewController.swift */,
+				D8A9C73E244E4E8B00D57E5C /* LaunchScreenViewController.swift */,
+				BE8D67B2243D35DF00602C1B /* recipesTableViewController.swift */,
+				BE8D67AE243A951500602C1B /* fitnessTableViewController.swift */,
+				BE8D67B0243AA56700602C1B /* workoutViewController.swift */,
+				BEAA5885244CFBB0006869B4 /* LeaderBoardTableViewController.swift */,
+				BE35AC7124381F1700754558 /* nutritionViewController.swift */,
+				BE35AC6F2438101900754558 /* moreInfoViewController.swift */,
+				BE35AC6D2437E1F700754558 /* meditationViewController.swift */,
+				BE4122AB243544DC0062A534 /* timerViewController.swift */,
+				BEBEA5DC243018D100119720 /* Assets.xcassets */,
+				BEBEA5DE243018D100119720 /* LaunchScreen.storyboard */,
+				BEBEA5E1243018D100119720 /* Info.plist */,
+				BEBEA5D9243018D100119720 /* FitnessApp.xcdatamodeld */,
+			);
+			path = FitnessApp;
+			sourceTree = "<group>";
+		};
+		BEE7817E2442B10E00234A68 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA5881244CE4D1006869B4 /* HomeTableViewController.swift */,
+				BE9C55172445841300A0C679 /* CreateAccountViewController.swift */,
+				BEE7817F2442B2DD00234A68 /* LoginViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEBEA5CC243018D100119720 /* FitnessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBEA5E4243018D100119720 /* Build configuration list for PBXNativeTarget "FitnessApp" */;
+			buildPhases = (
+				DAF8832D35321606ECFB6FB5 /* [CP] Check Pods Manifest.lock */,
+				BEBEA5C9243018D100119720 /* Sources */,
+				BEBEA5CA243018D100119720 /* Frameworks */,
+				BEBEA5CB243018D100119720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessApp;
+			productName = FitnessApp;
+			productReference = BEBEA5CD243018D100119720 /* Trifecta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBEA5C5243018D100119720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Duke University";
+				TargetAttributes = {
+					BEBEA5CC243018D100119720 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = BEBEA5C8243018D100119720 /* Build configuration list for PBXProject "FitnessApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEBEA5C4243018D100119720;
+			productRefGroup = BEBEA5CE243018D100119720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEBEA5CC243018D100119720 /* FitnessApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEBEA5CB243018D100119720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D856CC65244FC7FF00CBCCE6 /* Main.storyboard in Resources */,
+				BEBEA5E0243018D100119720 /* LaunchScreen.storyboard in Resources */,
+				BEBEA5DD243018D100119720 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAF8832D35321606ECFB6FB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEBEA5C9243018D100119720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE35AC6E2437E1F700754558 /* meditationViewController.swift in Sources */,
+				BEBEA5DB243018D100119720 /* FitnessApp.xcdatamodeld in Sources */,
+				BEE7816D24422BEA00234A68 /* ChallengesViewController.swift in Sources */,
+				BE35AC702438101900754558 /* moreInfoViewController.swift in Sources */,
+				BE35AC7224381F1700754558 /* nutritionViewController.swift in Sources */,
+				BE8D67AF243A951500602C1B /* fitnessTableViewController.swift in Sources */,
+				BE4122AC243544DC0062A534 /* timerViewController.swift in Sources */,
+				BB4E1F46244B6C6C00C31F7F /* challengesTableViewController.swift in Sources */,
+				BE9C55182445841300A0C679 /* CreateAccountViewController.swift in Sources */,
+				BEBEA5D5243018D100119720 /* ViewController.swift in Sources */,
+				BEBEA5D1243018D100119720 /* AppDelegate.swift in Sources */,
+				BE8D67B3243D35DF00602C1B /* recipesTableViewController.swift in Sources */,
+				BE8D67B1243AA56700602C1B /* workoutViewController.swift in Sources */,
+				D8A9C73F244E4E8B00D57E5C /* LaunchScreenViewController.swift in Sources */,
+				BB4E1F48244B6C9100C31F7F /* addScreenViewController.swift in Sources */,
+				BEE781802442B2DD00234A68 /* LoginViewController.swift in Sources */,
+				BEBEA5D3243018D100119720 /* SceneDelegate.swift in Sources */,
+				BEE7816F24422CB700234A68 /* StatsViewController.swift in Sources */,
+				BE8D67B5243D387600602C1B /* focusViewController.swift in Sources */,
+				BEAA5882244CE4D1006869B4 /* HomeTableViewController.swift in Sources */,
+				BEAA5886244CFBB0006869B4 /* LeaderBoardTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEBEA5DE243018D100119720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBEA5DF243018D100119720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D856CC63244FC7FE00CBCCE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D856CC64244FC7FE00CBCCE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEBEA5E2243018D100119720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEBEA5E3243018D100119720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEBEA5E5243018D100119720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32C9519C9B04BC58BD9FF67 /* Pods-FitnessApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6633UA367R;
+				INFOPLIST_FILE = FitnessApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS290.FitnessApp.Oliver;
+				PRODUCT_NAME = Trifecta;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEBEA5E6243018D100119720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B48FB0C2294E33372ABD5C /* Pods-FitnessApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6633UA367R;
+				INFOPLIST_FILE = FitnessApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS290.FitnessApp.Oliver;
+				PRODUCT_NAME = Trifecta;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEBEA5C8243018D100119720 /* Build configuration list for PBXProject "FitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBEA5E2243018D100119720 /* Debug */,
+				BEBEA5E3243018D100119720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBEA5E4243018D100119720 /* Build configuration list for PBXNativeTarget "FitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBEA5E5243018D100119720 /* Debug */,
+				BEBEA5E6243018D100119720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEBEA5D9243018D100119720 /* FitnessApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEBEA5DA243018D100119720 /* FitnessApp.xcdatamodel */,
+			);
+			currentVersion = BEBEA5DA243018D100119720 /* FitnessApp.xcdatamodel */;
+			path = FitnessApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEBEA5C5243018D100119720 /* Project object */;
+}
